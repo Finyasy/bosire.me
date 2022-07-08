@@ -10,9 +10,26 @@ function pageTransitions(){
             let currentBtn = document.querySelectorAll('.active-btn');
             currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
             this.className += ' active-btn';
-        }
-        )
+        })
     }
+    //Sections Active class
+    allSections.addEventListener('click', (e) => {
+        const id = e.target.dataset.id;
+        if(id){
+            // Remove active class from all sections
+            sectBtns.forEach((btn) => {
+                btn.classList.remove('active');
+            })
+            e.target.classList.add('active');
+            // Hide other Sections
+            sections.forEach((sect) => {
+                sect.classList.remove('active');
+            })
+            // Show the clicked section
+            const element = document.getElementById(id);
+            element.classList.add('active');
+        }
+    })
 }
 
 pageTransitions();
