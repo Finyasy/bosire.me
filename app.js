@@ -1,35 +1,38 @@
-const sections = document.querySelectorAll('.section');
-const sectBtns = document.querySelectorAll('.controls');
-const sectBtn = document.querySelectorAll('.control');
-const allSections = document.querySelector('.main-content')
+const sections = document.querySelectorAll(".section");
+const sectBtns = document.querySelectorAll(".controls");
+const sectBtn = document.querySelectorAll(".control");
+const allSections = document.querySelector(".main-content");
 
-function pageTransitions(){
+function pageTransitions() {
     // Button click active class
-    for(let i = 0; i < sectBtn.length; i++){
-        sectBtn[i].addEventListener('click', function(){
-            let currentBtn = document.querySelectorAll('.active-btn');
-            currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
-            this.className += ' active-btn';
-        })
+    for (let i = 0; i < sectBtn.length; i++) {
+        sectBtn[i].addEventListener("click", function () {
+            let currentBtn = document.querySelectorAll(".active-btn");
+            currentBtn[0].className = currentBtn[0].className.replace(
+                "active-btn",
+                ""
+            );
+            this.className += " active-btn";
+        });
     }
     //Sections Active class
-    allSections.addEventListener('click', (e) => {
+    allSections.addEventListener("click", (e) => {
         const id = e.target.dataset.id;
-        if(id){
+        if (id) {
             // Remove active class from all sections
             sectBtns.forEach((btn) => {
-                btn.classList.remove('active');
-            })
-            e.target.classList.add('active');
+                btn.classList.remove("active");
+            });
+            e.target.classList.add("active");
             // Hide other Sections
             sections.forEach((sect) => {
-                sect.classList.remove('active');
-            })
+                sect.classList.remove("active");
+            });
             // Show the clicked section
             const element = document.getElementById(id);
-            element.classList.add('active');
+            element.classList.add("active");
         }
-    })
+    });
 }
 
 pageTransitions();
