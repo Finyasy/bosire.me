@@ -815,7 +815,7 @@ section {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
-  .container {
+  .section {
     padding: 2rem 2.5rem !important;
   }
   .about-stats .progress-bars {
@@ -872,7 +872,7 @@ section {
   }
 }
 @media screen and (max-width: 1432px) {
-  .container {
+  .section {
     padding: 7rem 11rem;
   }
   .contact-content-con {
@@ -934,7 +934,7 @@ section {
   }
 }
 @media screen and (max-width: 970px) {
-  .container {
+  .section {
     padding: 7rem 6rem;
   }
   .about-container .left-about {
@@ -964,7 +964,7 @@ section {
   }
 }
 @media screen and (max-width: 700px) {
-  .container {
+  .section {
     padding: 7rem 3rem;
   }
   .about-stats .progress-bars {
