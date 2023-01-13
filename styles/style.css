@@ -354,40 +354,40 @@ section {
   width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 95%;
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .apache {
-  width: 70%;
+  width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .r {
+  width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 80%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .mlflow {
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 90%;
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
-  width: 90%;
+  width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 80%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .tf {
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
-  width: 70%;
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .pytorch {
-  width: 85%;
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .fastapi {
-  width: 80%;
+  width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .ruby {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .sklearn {
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .ml {
-  width: 90%;
+  width: 100%;
 }
 
 .stat-title {
