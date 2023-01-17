@@ -359,13 +359,13 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .apache {
   width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .r {
+.about-stats .progress-bars .progress-bar .progress-con .progress .docker {
   width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .mlflow {
   width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+.about-stats .progress-bars .progress-bar .progress-con .progress .pandas {
   width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
@@ -374,7 +374,7 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .tf {
   width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+.about-stats .progress-bars .progress-bar .progress-con .progress .aws {
   width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .pytorch {
